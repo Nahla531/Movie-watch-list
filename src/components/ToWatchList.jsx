@@ -8,7 +8,12 @@ function ToWatchList() {
     if (movie.watched == false)
       return <MovieItem key={movie.id} movie={movie} />;
   });
-  return <div className="watch-list">{movies}</div>;
+  return (
+    <div className="watch-list">
+      <h2 className="header">watch list</h2>
+      {movies}
+    </div>
+  );
 }
 
 export default observer(ToWatchList);

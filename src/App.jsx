@@ -9,6 +9,7 @@ function App() {
       <AddNewMovie />
       <div className="container">
         <ToWatchList />
+
         <WatchedList />
       </div>
     </div>

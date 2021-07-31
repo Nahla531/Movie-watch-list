@@ -8,7 +8,12 @@ const WatchedList = () => {
     if (movie.watched == true)
       return <MovieItem key={movie.id} movie={movie} />;
   });
-  return <div className="watched-list">{movies}</div>;
+  return (
+    <div className="watched-list">
+      <h2 className="header">watched list</h2>
+      {movies}
+    </div>
+  );
 };
 
 export default observer(WatchedList);

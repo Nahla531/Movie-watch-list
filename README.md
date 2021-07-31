@@ -19,6 +19,7 @@ And then you are ready to start
 
 - React js
 - mobx
+- mobx-react
 
 ### How to Run
 
