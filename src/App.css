@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* watch list */
+
+.watch-list {
+    padding: 20px;
+    flex: 50%;
+    border: 1px solid #000000;
+}
+
+
+/* movie item */
+
+.movie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/* buttons */
+
+.btn {
+    padding: 0.6em;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #ff0000;
+}
+
+.watched-btn {
+    background-color: darkgreen;
+}
+
+.unWatch-btn {
+    background-color: darkolivegreen;
+}
+
+.add-btn {
+    background-color: darksalmon;
+}
+
+
+/* watched list */
+
+.watched-list {
+    padding: 20px;
+    flex: 50%;
+    margin-left: 10px;
+    border: 1px solid #000000;
+}
+
+
+/* app */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+
+
+/* new movie */
+
+.new-movie {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 20px;
+}
+
+.new-movie input {
+    height: 30px;
+    outline: none;
+}
